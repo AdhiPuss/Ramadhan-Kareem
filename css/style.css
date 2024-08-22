@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+:root{
+    --background: #eff2f9;
+    --foreground: #fff;
+    --primary: #6a74c9;
+    --text-black: #484848;
+    --text-gray: #4f4f4f;
+    --border: #e6e6e6;
+    --shadow: #b1b1b140;
+}
+.dark-theme-color{
+    --background: #0a112b;
+    --foreground: #161f3e;
+    --primary: #6a74c9;
+    --text-black: #d0d0d0;
+    --text-gray: #d0d0d0;
+    --border: #2e4080;
+    --shadow: #00000029;
+}
+
+.active{
+    color: #ea1538;
+}
+
+/* jadwal */
+body{
+    background: var(--background);
+}
+
+.navbar{
+    /* height: 1vh; */
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 3%;
+    padding-right: 4%;
+    padding-bottom: 20px;
+}
+
+.logo{
+    color: #3A1078;
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span{
+    color: #ea1538;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #576CBC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #ea1538;
+}
+
+button{
+    border: none;
+    background: #ea1538;
+    padding: 12px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+section{
+    width: 95%;
+    margin: auto;
+    padding: 100px;
+    background: linear-gradient(45deg,#A5D7E8 , transparent), url(/image/bgn2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px var(--shadow);
+    position: relative;
+}
+
+
+#comunnity{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+
+.content .info h2{
+    color: #B1E693;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.content .info h2 span{
+    color: #EFD345;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.content .info p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.content .info-btn{
+    color: #fff;
+    background: #32502E;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: var(--background);
+}
+
+.content .info-btn:hover{
+    background: #2C2891;
+
+}
+
+.hero-box{
+    margin-top: 20px;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    padding: 40px;
+    background: linear-gradient(45deg, #00569a, transparent), url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px var(--shadow);
+    position: relative;
+}
+.hero-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-wrapper .ramadan-text{
+    width: 60%;
+}
+.hero-wrapper .ramadan-text h1{
+    color: #eff2f9;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.hero-wrapper .ramadan-text span{
+    color: #c8f1ff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px;
+    background: #6a74c97d;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.hero-wrapper .ramadan-text p{
+    color: #e4f7ff;
+    font-size: 14px;
+    opacity: 0.7;
+}
+.ramadan-time{
+    background: var(--background);
+    width: 35%;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #00000052;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.ramadan-time h4{
+    font-size: 22px;
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    width: 100%;
+}
+.ramadan-time > div {
+    width: 40%;
+    padding: 10px;
+    background: var(--foreground);
+    border-radius: 10px;
+    margin-right: 5%;
+    border: 1px solid var(--border);
+}
+.ramadan-time > div span{
+    color: var(--text-black);
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.ramadan-time > div span b{
+    font-size: 45px;
+    display: block;
+    margin-bottom: -10px;
+    color: var(--primary);
+}
+.ramadan-time > div p{
+    color: var(--text-gray);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.ramadan-time ul{
+    width: 55%;
+}
+.ramadan-time ul li{
+    background: var(--foreground);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    color: var(--text-gray);
+    text-transform: capitalize;
+}
+.ramadan-time ul li b{
+    color: var(--text-black);
+    font-weight: 600;
+}
+
+
+.ramadan-date .container{
+    background: none;
+    margin-top: 40px;
+    padding: 0;
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+}
+.date-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-right: 3%;
+}
+
+.date-wrapper .date-table{
+    background: var(--foreground);
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 7px var(--shadow);
+}
+
+.date-wrapper .date-table h2{
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.date-wrapper .date-table table{
+    width: 100%;
+    text-align: center;
+}
+.date-wrapper .date-table table tr th{
+    background: var(--primary);
+    padding: 6px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    border: 1px solid var(--border);
+    color: #fff;
+}
+.date-wrapper .date-table table tr td{
+    background: var(--background);
+    padding: 6px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    border: 1px solid var(--border);
+    color: var(--text-black);
+    cursor: pointer;
+}
+
+.ramadan-dua{
+    width: 32%;
+
+}
+.ramadan-dua ul{
+    display: flex;
+    flex-direction: column;
+}
+.ramadan-dua ul li{
+    background: var(--foreground);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 7px var(--shadow);
+    margin-bottom: 20px;
+}
+.ramadan-dua ul li h4{
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.ramadan-dua ul li p{
+    color: var(--text-gray);
+    text-align: center;
+    margin-bottom: 15px;
+}
+.ramadan-dua ul li b{
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: var(--text-black);
+}
+.ramadan-dua ul li p b{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-black);
+    margin-bottom: 0;
+}
+.ramadan-dua ul li hr{
+    border: none;
+    border-bottom: 3px solid var(--border);
+    margin-bottom: 10px;
+}
+
+/* darkmode */
+.darktheme{
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    background: #eff2f9;
+    border-radius: 50px;
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+.darktheme::before{
+    content: '';
+    position: absolute;
+    background: #6a74c9;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+
+
+.darktheme.active{
+    justify-content: flex-end;
+}

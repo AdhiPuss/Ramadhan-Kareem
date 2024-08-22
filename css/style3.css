@@ -1,0 +1,310 @@
+/* download section start */
+
+.shop_section {
+    width: 100%;
+    float: left;
+    background-color: #57C5B6;
+    height: auto;
+    padding: 90px 0px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+
+.shop_taital {
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #eaebe7;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.shop_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #eaebe7;
+    margin: 30px 0px 40px 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.app_icon_main{
+    width: 100%;
+    display: flex;
+}
+
+.app_icon {
+    width: 43%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.download_bt {
+    width: 170px;
+    float: left;
+}
+
+.download_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #1a1919;
+    background-color: #ffffff;
+    padding: 10px 0px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.download_bt a:hover {
+    color: #fcfcfd;
+    background-color: #ff9800;
+}
+
+
+
+/* contact */
+.contact_section {
+    width: 100%;
+    float: left;
+}
+
+.contact_taital {
+    width: 100%;
+    float: left;
+    color: #FFD966;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.contact_section_2 {
+    width: 100%;
+    text-align: center;
+    background-image: url(/image/ramadback.png);
+    height: 100%;
+    background-size: 60%;
+    padding: 40px 0px 60px 0px;
+    margin-bottom: 50px;
+}
+
+.mail_section_1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.mail_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #363636;
+    border: 0px;
+    border: 2px solid #FFF2CC !important;
+    background-color: white !important;
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+}
+
+.massage-bt {
+    color: #363636;
+    width: 100%;
+    height: 110px;
+    font-size: 18px;
+    border: 2px solid #FFF2CC !important;
+    background-color: white !important;
+    padding: 40px 15px 10px 15px;
+    margin-top: 20px;
+}
+
+.send_bt {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.send_bt a {
+    width: 100%;
+    float: left;
+    background-color: #E9A178;
+    color: #fefeff;
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.send_bt a:hover {
+    background-color: #ff9800;
+    color: #fefeff;
+}
+
+.padding_right0 {
+    padding-right: 0px;
+}
+
+/* download section start */
+
+.order_section{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.order_taital_main {
+    width: 80%;
+    display: flex;
+    background-color: #ffffff;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.order_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #131212;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 0px 0px 0px;
+}
+
+.order_bt {
+    width: 230px;
+    margin: 0 auto;
+}
+
+.order_bt a {
+    width: 100%;
+    float: left;
+    background-color: #8eb50b;
+    color: #fefeff;
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px; 
+}
+
+.order_bt a:hover {
+    background-color: #ff9800;
+    color: #fefeff;
+}
+
+/* footer section start */
+.contents{
+    max-width: 10500px;
+    margin: 10px 100px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  
+  
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5;
+  margin-top: 50px;
+}
+.site-footer hr.small
+{
+  margin:20px 0;
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px;
+}
+
+.site-footer p{
+    text-align: justify;
+}
+
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none;
+}
+.footer-links li
+{
+  display:block;
+}
+.footer-links a
+{
+  color:#737373;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block;
+}
+.site-footer .social-icons
+{
+  text-align:right;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+/* copyright section start */
+.copyright-text
+{
+  margin:0;
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px;
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0;
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center;
+  }
+}
+
+
+
